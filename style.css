@@ -1,0 +1,51 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 100px;
+	background-color:  #607d8b;
+	text-align: center;
+}
+
+h1 {
+	color: #b3d4fc;
+	font-size: 400%;
+}
+
+.mcontainer {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	border-bottom: 1px solid #b3d4fc !important;
+}
+
+table tr td {
+	color: #b3d4fc;
+	font-size: 200%;
+	font-weight: 100;
+	text-align: left;
+	padding-left: 30px;
+}
+
+table .circle-char {
+	height: 50px;
+	width: 50px;
+	background-color: #b3d4fc;
+	color: #607d8b;
+	display: table-cell;
+	vertical-align: middle;
+	border-radius: 100%;
+	text-align: center;
+	font-weight: 400;
+}
+
+@media only screen and (max-width : 640px){
+	.mcontainer {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
